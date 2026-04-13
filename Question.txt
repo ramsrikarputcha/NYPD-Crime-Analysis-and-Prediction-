@@ -1,0 +1,120 @@
+Individual Project 1 : NYPD Arrest Data (Part 1)
+Due Feb 13 by 11:59pm Points 100 Submitting a text entry box or a file upload Available after Feb 4 at 12am
+[Note: This individual project counts for 10% of your grade. Part 2 will be released later]
+
+You learned interesting data tools in a class by attending workshops and hopefully trying hands-on with them; now what? 
+
+We all know safety is essential and knowing what is happening around us is crucial. People of New York City need to know the same. Could we help them with this? Sure, why not? We could use the skills we learned in class to help the city of New York, and its residents get an overview of its crimes.
+
+What's in it for you?
+
+You will be able to appreciate the efforts that go into building fancy dashboards. 
+
+You will understand the importance of profiling the data, understanding it, and making keen observations on data inconsistencies.
+
+You will understand the process of building staging data pipelines to get data in your hands for ad-hoc analysis using SQL or prototype dashboards.
+
+You will get helpful tips on safety before planning your next NYC Trip!
+
+ 
+
+Dimensional Modeling:-
+
+You will design a Dimensional Model for the NYPD Arrest Data (Year-to-Date), available at:🔗 NYPD Arrest DataLinks to an external site.
+
+Your task is to create a dimensional model that supports analytical queries based on the dataset.
+
+Business Requirements:
+
+How many arrests occurred on any specific day, week, month, quarter, or year?
+What are the peak days and months for arrests?
+What are the top 5 most frequently occurring crimes?
+Which crimes have increased or decreased the most over time?
+Are there specific precincts with higher felony arrests compared to misdemeanors? (Hint: A precinct is a police district within a city.)
+Which borough has the highest number of arrests? (Hint: A borough is a large administrative division in NYC, such as Manhattan (M), Brooklyn (K), Queens (Q), The Bronx (B), and Staten Island (S).)
+What is the distribution of arrestees by age, race, and gender?
+Can we predict high-crime areas based on past arrest data?
+Note: Analyze the business questions listed above and determine if any are irrelevant based on your understanding of the dataset. If a question is found to be irrelevant, provide a justification explaining why it does not align with the dataset, along with a clear explanation and SQL Query.
+
+Perform below steps -
+
+Understand the above business requirements
+Identify Grain
+Define Facts and Dimensions
+Logical data model
+Physical data model (Running DDL scripts on Snowflake)
+Hint: How to identify Facts and dimensions
+
+Use the concept of What? When? Where? Who? and Why?
+ 
+
+Data Staging Pipeline for NYPD Arrest Data:-
+
+How will you do it?
+
+Use Alteryx to profile your CSV data.
+Make observations on data and write down the problems you see, such as missing values and inconsistencies. Also, document how you plan to clean those using your staging data pipeline.
+Knowing the data cleaning efforts required for this dataset, build a staging data pipeline using Azure Data Factory to populate data into snowflake database tables. I
+Input CSV dataset -> Cleaning -> Stage Table in Snowflake.
+Deliverables for Dimensional Modeling:
+
+E/R studio file, which contains logical and physical models (OR Navicat)
+SQL Script
+Screenshots of Tables created on the DB
+Deliverables for Staging Data:
+Upload the Alteryx workflow file used for profiling datasets.
+Word Document indicating problems with the dataset and how you plan to clean it before storing it in stage tables.
+ADF pipeline JSON files on GitHub are used to stage/clean the dataset. (GitHub links)
+Screenshots of:
+ADF pipeline run
+Alteryx workflow run
+Data populated in Snowflake Database
+Row counts using SQL query
+For submission, a ZIP file containing all the above artifacts is expected. (Include JSON files of ADF as well)
+
+----------------------------------------------------------------------------------------------------------------------------------
+Individual Project 1 : NYPD Arrest Data (Part 2)
+Due Feb 25 by 11:59pm Points 100 Submitting a text entry box or a file upload Available until Feb 25 at 11:59pm
+This assignment was locked Feb 25 at 11:59pm.
+Part 2 Task: Creating NYC Crime Data Dashboards in Tableau and PowerBI
+
+In this part of the project, you will work with NY crime data loaded into the Staging table in the Snowflake Database from part 1. Your task is to create dashboards in Tableau and PowerBI based on this data.
+
+ 
+
+Given below are the questions for which you have to create dashboards:
+
+Time-Based Analysis:
+
+How many arrests occurred on any specific day, week, month, quarter, or year?
+What are the peak days and months for arrests?
+
+Crime Patterns & Trends:
+
+What are the top 5 most frequently occurring crimes?
+Which crimes have increased or decreased the most over time?
+
+Geographic:
+
+What is the distribution of felony vs. misdemeanor arrest in each precinct?
+Which borough has the highest number of arrests?
+
+Demographic Analysis of Arrests:
+
+What is the distribution of arrestees by age, race, and gender?
+
+Predictive & Preventive Insights:
+Can we identify high-crime areas based on historical trends?
+
+
+Deliverables:
+
+- Upload your Power BI and Tableau files to Canvas for evaluation (Zip and upload).
+- Publish your interactive Tableau dashboard on Tableau Cloud. (Uploading the dashboard to the PowerBI cloud is optional)
+- Based on all the questions given above, note your inferences in a document file and upload it to Canvas.
+
+Ensure that your dashboards are clear and visually appealing and provide insightful answers to the questions posed. Use appropriate charts, graphs, and visual elements to convey your findings effectively.
+
+Tableau key: TC7O-D952-7D20-D832-2ACC
+
+ 
