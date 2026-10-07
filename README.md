@@ -1,4 +1,4 @@
-# NYPD-Crime-Analysis-and-Prediction-
+# NYPD-Crime-Analysis-and-Prediction
 
 **An End-to-End BI Solution with Alteryx, Snowflake, ADF, and Tableau**
 
